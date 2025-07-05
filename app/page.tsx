@@ -1,14 +1,8 @@
-export default function Page() {
+export default function HomePage() {
   return (
-    <div style={{ fontFamily: 'sans-serif', padding: '2rem' }}>
-      <h1>📈 MyTradingHistory.in</h1>
-      <p>This is your trading journal app – deployed using Vercel.</p>
-      <ul>
-        <li>✅ Checklist (হ্যাঁ/না/ঠিক করেছি)</li>
-        <li>✅ % Accuracy Calculation</li>
-        <li>✅ Upload Voice/Images</li>
-      </ul>
-      <p>Edit <code>app/page.tsx</code> to begin customizing.</p>
+    <div style={{ textAlign: 'center', marginTop: '100px' }}>
+      <h1>Welcome to MyTradingHistory</h1>
+      <p>This is a live deployed Next.js app!</p>
     </div>
   );
 }
